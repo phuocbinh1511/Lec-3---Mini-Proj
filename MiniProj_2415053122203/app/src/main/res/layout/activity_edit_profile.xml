@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp">
+
+    <EditText android:id="@+id/edtName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Họ và tên" />
+    <EditText android:id="@+id/edtClass" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lớp sinh hoạt" />
+    <EditText android:id="@+id/edtGpa" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Điểm GPA (0.0 - 4.0)" android:inputType="numberDecimal" />
+
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lưu và Phản Hồi" android:layout_marginTop="16dp"/>
+    <Button android:id="@+id/btnCancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hủy Bỏ" />
+</LinearLayout>
